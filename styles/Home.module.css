@@ -6,6 +6,16 @@
   justify-content: center;
   align-items: center;
 }
+.container ul{
+  display:flex;
+  width:100%;
+  justify-content: right;
+  
+}
+.container ul li{
+  margin:0 1.3rem;
+  
+}
 
 .main {
   padding: 5rem 0;

@@ -1,12 +1,14 @@
 import Layout from '../components/Layout'
+import styles from '../styles/Home.module.css'
 
 const index = () => {
   
   return (
     <Layout>
-<h1>Hello</h1>
-
-    </Layout>
+      <div className={styles.main}>
+ <h1>Hello</h1>
+      </div>
+       </Layout>
     
   )
 }

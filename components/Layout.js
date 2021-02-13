@@ -1,13 +1,21 @@
 import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 
 const Layout = ({ children }) => {
   
   return (
-    <>
-    <Link href='/'><a>Home</a></Link>
-      <Link href='about'><a>About</a></Link>
+    <div className={styles.container}>
+      <ul>
+        <li><Link href='/'><a>Home</a></Link></li>
+        <li><Link href='about'><a>About</a></Link></li>
+      </ul>
+
+      
       {children}
-      </>
+
+    </div>
+    
+      
   )
 }
 
